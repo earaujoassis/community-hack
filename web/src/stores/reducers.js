@@ -86,27 +86,6 @@ const applicationRecordError = (state, action) => {
   });
 };
 
-const serverRecordStart = (state, action) => {
-  return Object.assign({}, state, { loading: addLoading(state, 'server') });
-};
-
-const serverRecordSuccess = (state, action) => {
-  return Object.assign({}, state, {
-    loading: reduceLoading(state, 'server'),
-    success: true,
-    error: null,
-    servers: action.servers
-  });
-};
-
-const serverRecordError = (state, action) => {
-  return Object.assign({}, state, {
-    loading: reduceLoading(state, 'server'),
-    success: false,
-    error: action.error
-  });
-};
-
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.USER_RECORD_START: return userRecordStart(state, action);
@@ -118,9 +97,6 @@ const reducer = (state = initialState, action) => {
     case actionTypes.APPLICATION_RECORD_START: return applicationRecordStart(state, action);
     case actionTypes.APPLICATION_RECORD_SUCCESS: return applicationRecordSuccess(state, action);
     case actionTypes.APPLICATION_RECORD_ERROR: return applicationRecordError(state, action);
-    case actionTypes.SERVER_RECORD_START: return serverRecordStart(state, action);
-    case actionTypes.SERVER_RECORD_SUCCESS: return serverRecordSuccess(state, action);
-    case actionTypes.SERVER_RECORD_ERROR: return serverRecordError(state, action);
     default: return state;
   }
 };
