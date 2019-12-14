@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj": {}
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj": {
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj",
+        "projectUniqueName": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj",
         "projectName": "AhGarra.Domain.Repositories.Impl",
-        "projectPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj",
+        "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories.Impl\\AhGarra.Domain.Repositories.Impl.csproj",
         "packagesPath": "C:\\Users\\BR Mobile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories.Impl\\obj\\",
+        "outputPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories.Impl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BR Mobile\\AppData\\Roaming\\NuGet\\NuGet.Config",

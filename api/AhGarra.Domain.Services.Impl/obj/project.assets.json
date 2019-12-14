@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services.Impl\\AhGarra.Domain.Services.Impl.csproj",
+      "projectUniqueName": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services.Impl\\AhGarra.Domain.Services.Impl.csproj",
       "projectName": "AhGarra.Domain.Services.Impl",
-      "projectPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services.Impl\\AhGarra.Domain.Services.Impl.csproj",
+      "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services.Impl\\AhGarra.Domain.Services.Impl.csproj",
       "packagesPath": "C:\\Users\\BR Mobile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services.Impl\\obj\\",
+      "outputPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services.Impl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BR Mobile\\AppData\\Roaming\\NuGet\\NuGet.Config",

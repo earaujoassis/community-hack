@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj": {}
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj": {
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj",
         "projectName": "AhGarra.Domain.Repositories",
-        "projectPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj",
+        "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj",
         "packagesPath": "C:\\Users\\BR Mobile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BR Mobile\\AppData\\Roaming\\NuGet\\NuGet.Config",

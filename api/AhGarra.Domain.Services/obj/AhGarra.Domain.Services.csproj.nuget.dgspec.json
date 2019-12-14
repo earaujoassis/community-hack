@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj": {}
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj": {
+    "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj",
+        "projectUniqueName": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj",
         "projectName": "AhGarra.Domain.Services",
-        "projectPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj",
+        "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj",
         "packagesPath": "C:\\Users\\BR Mobile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BR Mobile\\source\\repos\\AhGarra\\AhGarra.Domain.Services\\obj\\",
+        "outputPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BR Mobile\\AppData\\Roaming\\NuGet\\NuGet.Config",
