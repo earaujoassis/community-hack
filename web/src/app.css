@@ -224,3 +224,7 @@ a:hover,
   font-style: normal;
   font-weight: normal;
 }
+
+.menu-fix {
+  margin-top: 60px;
+}

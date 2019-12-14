@@ -19,7 +19,7 @@ const root = ({ children, loading, user, fetchUser, createUser }) => {
 
   return (
     <div className="userRealm-root">
-      {!user ? (<Login />) : (children)}
+      {user ? (<Login />) : (children)}
     </div>
   );
 };
