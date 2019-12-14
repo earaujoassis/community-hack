@@ -1,6 +1,6 @@
 const extractDataForm = (form, attributes) => {
   const data = {};
-  for (let attr of attributes) {
+  for (const attr of attributes) {
     data[attr] = form.querySelectorAll(`[name='${attr}']`)[0].value;
   }
 
