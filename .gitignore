@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+.env
+.git
+.sass-cache
+tmp
+log
+package-lock.json

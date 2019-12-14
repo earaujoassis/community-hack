@@ -1,0 +1,226 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 101%;
+  font-size: 14px;
+  color: #282828;
+}
+
+.application-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.galaxy-center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+input {
+  padding: 10px 10px;
+  border: 1px solid hsl(0,0%,70%);
+  border-radius: 4px;
+  min-width: 560px;
+  outline: none;
+  transition: all 0.4s ease;
+}
+
+input:focus {
+  border-color: #2684FF;
+  box-shadow: 0 0 0 1px #2684FF;
+  transition: all 0.4s ease;
+}
+
+.input-box ~ .input-box {
+  margin-top: 14px;
+}
+
+.input-box.selector {
+  max-width: 582px;
+}
+
+.input-box.selector input:focus {
+  box-shadow: none;
+}
+
+.input-box .files-dropzone {
+  border: 1px solid hsl(0,0%,70%);
+  border-radius: 4px;
+  padding: 20px;
+  max-width: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.input-box .files-dropzone:focus,
+.input-box .files-dropzone:hover {
+  border-color: #2684FF;
+  box-shadow: 0 0 0 1px #2684FF;
+}
+
+.input-box .files-selected {
+  margin: 8px 0 0;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.input-box .files-selected p {
+  font-size: inherit;
+  margin-bottom: 6px;
+}
+
+.button {
+  display: block;
+  position: relative;
+  margin: 18px 0;
+  border: 0;
+  border-bottom: 4px solid #0b65db;
+  border-radius: 8px;
+  padding: 12px 32px 10px;
+  background: #2684FF;
+  color: #FFF;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.button:active {
+  border-bottom: 0;
+  top: 4px;
+}
+
+.button[disabled] {
+  opacity: 0.5;
+}
+
+.monospace {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  font-weight: inherit;
+  font-size: inherit;
+  color: #0366d6;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.anchor {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: inline-block;
+  font-weight: inherit;
+  font-size: inherit;
+  color: #0366d6;
+  background: transparent;
+  cursor: pointer;
+}
+
+a:hover,
+.anchor:hover,
+.anchor:active {
+  text-decoration: underline;
+}
+
+*:focus {
+  outline: none;
+}
+
+.global-modal-container {
+  z-index: 2000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.global-modal-overlay {
+  position: absolute;
+  z-index: 2001;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.global-modal-box {
+  position: absolute;
+  z-index: 2002;
+  top: 10%;
+  bottom: auto;
+  left: 25%;
+  right: 25%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  padding: 2.5%;
+}
+
+.global-modal-box-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.global-modal-box-body p {
+  font-size: 1rem;
+  margin-bottom: 0.83em;
+}
+
+.global-modal-box-body h2 {
+  margin: 0 0 0.83em;
+}
+
+.global-modal-form {
+  margin: 12px 0;
+}
+
+.global-modal-close {
+  position: absolute;
+  right: -8px;
+  top: -28px;
+  border: 0;
+  background: transparent;
+  font-weight: 200;
+  font-size: 5rem;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.code {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: normal;
+}

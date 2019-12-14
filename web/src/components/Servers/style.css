@@ -1,0 +1,85 @@
+.servers-root {
+  flex: 1;
+  padding: 20px;
+}
+
+.servers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.servers-box {
+  position: relative;
+  border-top: 1px solid #e1e4e8;
+  padding: 18px 0 18px;
+}
+
+.server-status-box {
+  right: 20px;
+  top: 25px;
+  position: absolute;
+  display: inline-block;
+}
+
+.server-time-lapse {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.server-status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.server-status.active {
+  background: #5CDB95;
+}
+
+.server-status.inactive {
+  background: #FF331F;
+}
+
+.servers-box a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.servers-box a:hover,
+.servers-box a:active {
+  text-decoration: underline;
+}
+
+.servers-title {
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.servers-description {
+  font-weight: 200;
+  margin: 0 0 6px;
+}
+
+.servers-spacer {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.servers-actions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.servers-actions > li {
+  display: inline-block;
+}
+
+.servers-actions > li ~ li {
+  margin-left: 22px;
+}
+
+.servers-box .anchor {
+  font-size: 0.8rem;
+}

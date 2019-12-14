@@ -1,0 +1,20 @@
+.header-root {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  padding: 22px 28px;
+  min-height: 100px;
+  background-color: #240090;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.header-title {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  font-size: 4rem;
+}

@@ -1,0 +1,9 @@
+.footer-root {
+  padding: 20px;
+  font-weight: 200;
+}
+
+.footer-root p {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
