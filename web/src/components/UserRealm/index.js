@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions';
 import { SpinningSquare } from '../UI';
 
+import Login from '@components/Login';
+
 import './style.css';
 
 const root = ({ children, loading, user, fetchUser, createUser }) => {
@@ -17,7 +19,7 @@ const root = ({ children, loading, user, fetchUser, createUser }) => {
 
   return (
     <div className="userRealm-root">
-      {children}
+      {!user ? (<Login />) : (children)}
     </div>
   );
 };

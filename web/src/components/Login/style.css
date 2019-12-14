@@ -1,0 +1,48 @@
+.login-root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background-color: #6156E8;
+}
+
+.login-content {
+  padding: 6%;
+  color: #FFF;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.login-header {
+  margin: 6% 0 12%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.login-thumbnail {
+  margin: 5% 0;
+}
+
+.login-description {
+  padding: 10% 0;
+}
+
+.login-form {
+  padding: 5% 0;
+}
+
+.login-form input {
+  margin: 0 0 5%;
+}
+
+.login-email {
+  margin: 0 0 5%;
+}
+
+.login-form button {
+  border: 1px solid #fff;
+  padding: 2.5%;
+  width: 100%;
+  background-color: transparent;
+  color: inherit;
+}
