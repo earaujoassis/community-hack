@@ -4,3 +4,7 @@
   padding: 4% 6% 6%;
   border-radius: 4px;
 }
+
+.card-root ~ .card-root {
+  margin-top: 4%;
+}
