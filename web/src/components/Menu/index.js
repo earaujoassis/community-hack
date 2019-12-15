@@ -1,22 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './style.css';
 
 const menu = () => {
+  const [displayMenu, setDisplayMenu] = useState(false);
+
   return (
     <div role="menu" className="menu-root">
-      <ul className="menu-list">
-        <li>
-          <Link to="/configuration" title="Configuration"><i className="fas fa-cog"></i></Link>
-        </li>
-        <li>
-          <Link to="/applications" title="Applications"><i className="fas fa-rocket"></i></Link>
-        </li>
-        <li>
-          <Link to="/servers" title="Servers"><i className="fas fa-server"></i></Link>
-        </li>
-      </ul>
+      <span onClick={() => setDisplayMenu(!displayMenu)} className="menu-bars">
+        <i className="fas fa-bars"></i>
+      </span>
+      {displayMenu ? (
+        <ul className="menu-list">
+          <li>
+            <Link to="/public">Cursos e módulos</Link>
+          </li>
+          <li>
+            <Link to="/configurations">Configurações</Link>
+          </li>
+        </ul>
+      ) : (null)}
     </div>
   );
 };

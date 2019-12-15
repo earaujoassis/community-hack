@@ -39,8 +39,8 @@ label {
 input {
   padding: 10px 10px;
   border: 1px solid hsl(0,0%,70%);
-  border-radius: 4px;
-  min-width: 560px;
+  border-radius: 2px;
+  min-width: calc(100% - 22px);
   outline: none;
   transition: all 0.4s ease;
 }
@@ -102,10 +102,10 @@ input:focus {
   background: #2684FF;
   color: #FFF;
   outline: none;
-  cursor: pointer;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .button:active {
@@ -223,4 +223,8 @@ a:hover,
   font-family: 'Inconsolata', monospace;
   font-style: normal;
   font-weight: normal;
+}
+
+.menu-fix {
+  margin-top: 60px;
 }

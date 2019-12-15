@@ -1,0 +1,26 @@
+.offer-container {
+  padding: 6%;
+}
+
+.offer-trophy {
+  margin-top: 30%;
+  display: block;
+  font-size: 8rem;
+  color: #F44324;
+  text-align: center;
+}
+
+.offer-text {
+  margin-top: 12%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.offer-text button {
+  margin-top: 12%;
+  border: 0;
+  border-radius: 6px;
+  padding: 14px 20px;
+  color: #fff;
+  background-color: rgba(244, 67, 36, 0.99);
+}

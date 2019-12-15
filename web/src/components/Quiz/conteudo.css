@@ -1,0 +1,37 @@
+.conteudo-root {
+  background: #6156e8;
+  color: #fff;
+  padding: 4% 6% 6%;
+  border-radius: 4px;
+}
+
+.conteudo-form {
+  display: flex;
+  /* background: black; */
+  flex-direction: column;
+}
+
+.conteudo-form-check {
+  display: flex;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.8);
+  align-content: center;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.conteudo-form-check input {
+  align-self: center;
+}
+
+.conteudo-form-check label {
+  margin: 0 5px;
+  font-size: 14px;
+  text-transform: initial;
+  align-self: center;
+  cursor: pointer;
+}
+
+.conteudo-form-check label:hover {
+  color: #fff;
+}

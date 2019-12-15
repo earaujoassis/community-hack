@@ -1,0 +1,46 @@
+.quiz-container {
+  padding: 0 6%;
+}
+
+.menu-fix .quiz-container a {
+  text-decoration: none;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.quiz-logo {
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo-header {
+  /* margin: 6% 0 12%; */
+  text-decoration: none;
+  text-align: center;
+  font-size: 3rem;
+  color: #f44324;
+}
+
+.quiz-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.quiz-button-proxima {
+  color: rgba(244, 67, 36, 0.8);
+  border: 2px solid rgba(244, 67, 36, 0.8);
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 10px;
+  /* width: 100%; */
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.quiz-button-proxima:hover {
+  color: #f44324;
+  border: 2px solid #f44324;
+}
