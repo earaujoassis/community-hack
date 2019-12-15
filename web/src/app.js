@@ -3,14 +3,17 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 
 import Layout from './containers/Layout';
 import Courses from '@components/Courses';
-// import Offer from '@components/Offer';
+import Login from '@components/Login';
+import Quiz from '@components/Quiz';
 
 import './app.css';
 
 const app = props => {
   const routes = (
     <Switch>
-      <Route path="/public/" exact component={Courses} />
+      <Route path="/public" exact component={Login} />
+      <Route path="/public/courses" component={Courses} />
+      <Route path="/public/quiz" component={Quiz} />
     </Switch>
   );
 

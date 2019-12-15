@@ -1,0 +1,24 @@
+.quiz-container {
+  padding: 0 6%;
+}
+
+.menu-fix .quiz-container a {
+  text-decoration: none;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.quiz-logo {
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo-header {
+  /* margin: 6% 0 12%; */
+  text-decoration: none;
+  text-align: center;
+  font-size: 3rem;
+  color: #f44324;
+}
