@@ -41,25 +41,25 @@ namespace AhGarra.Domain.Repositories.Impl.Context
                     Id = 1,
                     Description = "1) O que é?\n2) Como funciona?\n3) Qual Objetivo?",
                     Order = 1,
-                    Titulo = "Perguntas"
+                    Title = "Perguntas"
                   },
                   new Card{
                     Id = 2,
                     Description = "É um treinamento online com um conjunto de pequenos cartões que guiam o você por conteúdo para aprender programação.",
                     Order = 2,
-                    Titulo = "O que é?"
+                    Title = "O que é?"
                   },
                   new Card{
                     Id = 3,
                     Description = "O treinamento pode ser acessado pelo site num PC ou direto no seu celular. É só fazer uma cadastro rápido e começar a aprender e acumular pontos cumprindo tarefas.",
                     Order = 3,
-                    Titulo = "Como funciona?"
+                    Title = "Como funciona?"
                   },
                   new Card{
                     Id = 4,
                     Description = "Estimular o aprendizado de programação de forma lúdica, divertida, online e gratuita.",
                     Order = 4,
-                    Titulo = "Qual Objetivo?"
+                    Title = "Qual Objetivo?"
                   }
                 },
         Description = "Dê seus primeiros passos de maneira prática e inicie na programação no seu celular.",

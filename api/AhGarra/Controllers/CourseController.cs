@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AhGarra.Controllers
 {
   [ApiController]
-  [Route("api/[controller]")]
+  [Route("api/[controller]/")]
   public class CourseController : Controller
   {
     private readonly ICourseService _courseService;
@@ -21,9 +21,27 @@ namespace AhGarra.Controllers
     }
 
     [HttpGet]
-    public IList<CourseBasicInformationDTO> GetAllCoursesBasicInformation()
+    [Route("/GetAllCoursesBasicInformation")]
+    public ActionResult GetAllCoursesBasicInformation()
     {
-      return this._courseService.GetAllCourseBasicInformation();
+      return Ok(_courseService.GetAllCourseBasicInformation());
+    }
+
+    [HttpGet]
+    [Route("/GetCourseCardsAndQuiz/{idCourse}")]
+    public ActionResult GetCourseCardsAndQuiz([FromRoute]int idCourse)
+    {
+      return Ok(_courseService.GetCourseCardsAndQuiz(idCourse));
+    }
+
+    // TODO: Setar flag de concluído
+
+    [HttpPut]
+    [Route("/SetCourseStatus/{isCompleted}/{idCourse}")]
+    public ActionResult SetCourseStatus(bool isCompleted, int idCourse)
+    {
+      _courseService.SetCourseStatus(isCompleted, idCourse);
+      return Ok();
     }
   }
 }
