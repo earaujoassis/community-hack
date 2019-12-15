@@ -6,9 +6,9 @@ namespace AhGarra.Domain.Entities
 {
   public class Quiz
   {
-    public int Id { get; set; }
+    public string Title { get; set; }
 
-    public IList<Options> Options { get; set; } = new List<Options>();
+    public IList<Option> Options { get; set; } = new List<Option>();
 
     public IList<int> CorrectOptionsIds { get; set; } = new List<int>();
   }

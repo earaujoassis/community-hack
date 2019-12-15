@@ -8,5 +8,9 @@ namespace AhGarra.Domain.Services.Interfaces
   public interface ICourseService
   {
     IList<CourseBasicInformationDTO> GetAllCourseBasicInformation();
+
+    CourseContentDTO GetCourseCardsAndQuiz(int idCourse);
+
+    void SetCourseStatus(bool isCompleted, int idCourse);
   }
 }
