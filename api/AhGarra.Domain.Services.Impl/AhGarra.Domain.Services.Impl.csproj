@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AhGarra.Domain.Repositories\AhGarra.Domain.Repositories.csproj" />
+    <ProjectReference Include="..\AhGarra.Domain.Services\AhGarra.Domain.Services.csproj" />
+  </ItemGroup>
+
 </Project>

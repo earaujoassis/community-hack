@@ -1,0 +1,11 @@
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.deps.json
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.csprojAssemblyReference.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.AssemblyInfo.cs
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.csproj.CopyComplete

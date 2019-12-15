@@ -1,0 +1,13 @@
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.deps.json
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.csprojAssemblyReference.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.AssemblyInfoInputs.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.AssemblyInfo.cs
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.csproj.CopyComplete
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Repositories.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.Impl.pdb

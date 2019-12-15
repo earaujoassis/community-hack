@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AhGarra.Domain.Repositories/1.0.0": {
+        "dependencies": {
+          "AhGarra.Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "AhGarra.Domain.Repositories.dll": {}
+        }
+      },
+      "AhGarra.Domain.Entities/1.0.0": {
+        "runtime": {
+          "AhGarra.Domain.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AhGarra.Domain.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AhGarra.Domain.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

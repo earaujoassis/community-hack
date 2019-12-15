@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AhGarra.Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AhGarra.Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AhGarra.Domain.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AhGarra.Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../AhGarra.Domain.Entities/AhGarra.Domain.Entities.csproj",
+      "msbuildProject": "../AhGarra.Domain.Entities/AhGarra.Domain.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AhGarra.Domain.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BR Mobile\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Entities\\AhGarra.Domain.Entities.csproj": {
+              "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Entities\\AhGarra.Domain.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

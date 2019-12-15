@@ -1,19 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using AhGarra.Domain.Repositories.Impl.Context;
+using AhGarra.Domain.Repositories.Impl.Repositories;
+using AhGarra.Domain.Repositories.Interfaces;
+using AhGarra.Domain.Services.Impl.Services;
+using AhGarra.Domain.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace AhGarra
 {
-    public class Startup
+  public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -26,6 +24,20 @@ namespace AhGarra
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors();
+
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
+            services.AddScoped<ApplicationContext, ApplicationContext>();
+            services.AddTransient<ICourseRepository, CourseRepository>();
+            services.AddTransient<ICourseService, CourseService>();
+            //services.AddTransient<ICampeonatoService, CampeonatoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

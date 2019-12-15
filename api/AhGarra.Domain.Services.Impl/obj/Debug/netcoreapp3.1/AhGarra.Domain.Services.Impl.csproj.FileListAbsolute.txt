@@ -1,0 +1,15 @@
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.deps.json
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Services.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.csprojAssemblyReference.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.AssemblyInfoInputs.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.AssemblyInfo.cs
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.csproj.CopyComplete
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\obj\Debug\netcoreapp3.1\AhGarra.Domain.Services.Impl.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Repositories.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Services.Impl\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.pdb

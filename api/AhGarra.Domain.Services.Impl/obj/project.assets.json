@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AhGarra.Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AhGarra.Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AhGarra.Domain.Entities.dll": {}
+        }
+      },
+      "AhGarra.Domain.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AhGarra.Domain.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AhGarra.Domain.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AhGarra.Domain.Repositories.dll": {}
+        }
+      },
+      "AhGarra.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AhGarra.Domain.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AhGarra.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AhGarra.Domain.Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AhGarra.Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../AhGarra.Domain.Entities/AhGarra.Domain.Entities.csproj",
+      "msbuildProject": "../AhGarra.Domain.Entities/AhGarra.Domain.Entities.csproj"
+    },
+    "AhGarra.Domain.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../AhGarra.Domain.Repositories/AhGarra.Domain.Repositories.csproj",
+      "msbuildProject": "../AhGarra.Domain.Repositories/AhGarra.Domain.Repositories.csproj"
+    },
+    "AhGarra.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../AhGarra.Domain.Services/AhGarra.Domain.Services.csproj",
+      "msbuildProject": "../AhGarra.Domain.Services/AhGarra.Domain.Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AhGarra.Domain.Repositories >= 1.0.0",
+      "AhGarra.Domain.Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BR Mobile\\.nuget\\packages\\": {}
@@ -32,7 +88,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj": {
+              "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Repositories\\AhGarra.Domain.Repositories.csproj"
+            },
+            "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj": {
+              "projectPath": "C:\\Users\\BR Mobile\\Desktop\\CommunityHack\\community-hack\\api\\AhGarra.Domain.Services\\AhGarra.Domain.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

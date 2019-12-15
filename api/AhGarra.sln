@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra", "AhGarra\AhGarra.csproj", "{B3AAE6CB-1727-4696-B08F-CF3AC7552B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra", "AhGarra\AhGarra.csproj", "{B3AAE6CB-1727-4696-B08F-CF3AC7552B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra.Domain.Entities", "AhGarra.Domain.Entities\AhGarra.Domain.Entities.csproj", "{92759A21-8424-4E37-889C-89D9CF8D83B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra.Domain.Entities", "AhGarra.Domain.Entities\AhGarra.Domain.Entities.csproj", "{92759A21-8424-4E37-889C-89D9CF8D83B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra.Domain.Repositories", "AhGarra.Domain.Repositories\AhGarra.Domain.Repositories.csproj", "{9DFB4DA5-72AA-4068-BFA1-2A2449BBB2F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra.Domain.Repositories", "AhGarra.Domain.Repositories\AhGarra.Domain.Repositories.csproj", "{9DFB4DA5-72AA-4068-BFA1-2A2449BBB2F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra.Domain.Repositories.Impl", "AhGarra.Domain.Repositories.Impl\AhGarra.Domain.Repositories.Impl.csproj", "{41D75C5C-7E9D-45BC-B38D-62561FB8C037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra.Domain.Repositories.Impl", "AhGarra.Domain.Repositories.Impl\AhGarra.Domain.Repositories.Impl.csproj", "{41D75C5C-7E9D-45BC-B38D-62561FB8C037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra.Domain.Services", "AhGarra.Domain.Services\AhGarra.Domain.Services.csproj", "{0456AA5E-2B64-4ADD-B679-D564E29B119B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra.Domain.Services", "AhGarra.Domain.Services\AhGarra.Domain.Services.csproj", "{0456AA5E-2B64-4ADD-B679-D564E29B119B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhGarra.Domain.Services.Impl", "AhGarra.Domain.Services.Impl\AhGarra.Domain.Services.Impl.csproj", "{C24AC719-5961-442B-B687-4E9BF7272147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhGarra.Domain.Services.Impl", "AhGarra.Domain.Services.Impl\AhGarra.Domain.Services.Impl.csproj", "{C24AC719-5961-442B-B687-4E9BF7272147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

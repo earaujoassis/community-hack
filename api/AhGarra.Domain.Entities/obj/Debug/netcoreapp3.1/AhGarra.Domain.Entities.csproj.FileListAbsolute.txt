@@ -1,0 +1,8 @@
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.deps.json
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\bin\Debug\netcoreapp3.1\AhGarra.Domain.Entities.pdb
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\obj\Debug\netcoreapp3.1\AhGarra.Domain.Entities.csprojAssemblyReference.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\obj\Debug\netcoreapp3.1\AhGarra.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\obj\Debug\netcoreapp3.1\AhGarra.Domain.Entities.AssemblyInfo.cs
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\obj\Debug\netcoreapp3.1\AhGarra.Domain.Entities.dll
+C:\Users\BR Mobile\Desktop\CommunityHack\community-hack\api\AhGarra.Domain.Entities\obj\Debug\netcoreapp3.1\AhGarra.Domain.Entities.pdb
