@@ -3,12 +3,12 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  background-color: #6156E8;
+  background-color: #6156e8;
 }
 
 .login-content {
   padding: 6%;
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   text-align: center;
 }
@@ -32,11 +32,11 @@
 }
 
 .login-form input {
-  margin: 0 0 5%;
+  margin: 0 0 10px;
 }
 
 .login-email {
-  margin: 0 0 5%;
+  margin: 0 0 10px;
 }
 
 .login-form button {
@@ -44,5 +44,5 @@
   padding: 2.5%;
   width: 100%;
   background-color: transparent;
-  color: inherit;
+  color: #fff;
 }

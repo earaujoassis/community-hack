@@ -1,8 +1,14 @@
-.card-root {
-  background: #6156E8;
-  color: #FFF;
+.card-item {
+  background: #6156e8;
+  color: #fff;
   padding: 4% 6% 6%;
   border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.card-item:hover {
+  background: rgba(97, 86, 232, 0.94);
 }
 
 .card-root ~ .card-root {

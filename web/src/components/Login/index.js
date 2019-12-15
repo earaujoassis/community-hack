@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
 
 import './style.css';
@@ -9,7 +10,7 @@ const login = () => {
   return (
     <div className="login-root">
       <div className="login-content">
-        <img className="login-thumbnail" src="/public/images/work.svg" width="150" />
+        <img className="login-thumbnail" src="/public/images/work.svg" width="250" />
         <h1 className="login-header">Ah!garra</h1>
         <p className="login-description">
           O Ah!garra é uma plataforma de auto-profissionalização que possibilita a obtenção de
@@ -18,9 +19,13 @@ const login = () => {
         <div className="login-form">
           {displayForm ? (
             <div className="login-full-form">
-              <form action="." method="POST" onSubmit={null}>
+              <form>
                 <input type="email" required placeholder="Email" />
-                <button type="submit">Cadastrar</button>
+                <input type="password" required placeholder="Senha" />
+                <Link to="/public/courses">
+
+                  <button type="button" className="button-login">Login</button>
+                </Link>
               </form>
             </div>
           ) : (

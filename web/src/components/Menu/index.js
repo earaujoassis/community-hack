@@ -8,11 +8,13 @@ const menu = () => {
 
   return (
     <div role="menu" className="menu-root">
-      <span onClick={() => setDisplayMenu(!displayMenu)} className="menu-bars"><i className="fas fa-bars"></i></span>
+      <span onClick={() => setDisplayMenu(!displayMenu)} className="menu-bars">
+        <i className="fas fa-bars"></i>
+      </span>
       {displayMenu ? (
         <ul className="menu-list">
           <li>
-            <Link to="/courses">Cursos e módulos</Link>
+            <Link to="/public">Cursos e módulos</Link>
           </li>
           <li>
             <Link to="/configurations">Configurações</Link>
