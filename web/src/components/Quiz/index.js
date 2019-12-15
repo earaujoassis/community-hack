@@ -19,6 +19,17 @@ const courses = () => {
         </div>
 
         <Conteudo />
+        <div className="quiz-button">
+          <Link to="/public/cardFim">
+            <button
+              className="quiz-button-proxima"
+            >
+              Próximo
+            </button>
+          </Link>
+
+        </div>
+
       </div>
     </div>
   );
