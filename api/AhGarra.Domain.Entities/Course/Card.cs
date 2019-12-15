@@ -8,8 +8,6 @@ namespace AhGarra.Domain.Entities
   {
     public string Titulo { get; set; }
 
-    public Quiz Quiz { get; set; }
-
     public bool IsConcluded { get; set; }
 
     public int Order { get; set; }

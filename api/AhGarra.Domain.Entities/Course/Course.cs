@@ -11,6 +11,8 @@ namespace AhGarra.Domain.Entities
 
     public IList<Card> Cards { get; set; } = new List<Card>();
 
+    public Quiz Quiz { get; set; }
+
     public CourseStatus CourseStatus { get; set; }
   }
 }
