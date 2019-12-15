@@ -3,6 +3,7 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 
 import Layout from './containers/Layout';
 import Courses from '@components/Courses';
+// import Offer from '@components/Offer';
 
 import './app.css';
 
