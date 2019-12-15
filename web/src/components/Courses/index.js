@@ -15,7 +15,7 @@ const courses = () => {
           <img src="/public/images/work.svg" width="150" />
           <h1 className="logo-header">Ah!garra</h1>
         </div>
-        <Link to="/public/quiz">
+        <Link to="/public/questions">
           <Card />
         </Link>
       </div>
