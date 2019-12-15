@@ -24,7 +24,7 @@ const cardThree = () => {
         </div>
 
         <div className="answer-button">
-          <Link to="/public/cardFim">
+          <Link to="/public/quiz">
             <button
               className="answer-button-proxima"
             >

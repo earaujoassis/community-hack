@@ -49,6 +49,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin: 10px 0;
+  height: 150px;
 }
 
 .card-conteudo {

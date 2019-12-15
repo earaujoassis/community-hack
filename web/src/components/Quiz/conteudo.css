@@ -35,25 +35,3 @@
 .conteudo-form-check label:hover {
   color: #fff;
 }
-
-.form-button {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.button-proxima {
-  color: rgba(255, 255, 255, 0.8);
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  font-weight: bold;
-  font-size: 21px;
-  text-decoration: none;
-  padding: 10px;
-  /* width: 100%; */
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.button-proxima:hover {
-  color: #fff;
-  border: 2px solid #fff;
-}
