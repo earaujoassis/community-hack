@@ -19,7 +19,7 @@ const questions = () => {
         </div>
         <Card />
         <div className="question-button">
-          <Link to="/public/answer">
+          <Link to="/public/cardone">
             <button className="question-button-proxima">Próximo</button>
           </Link>
         </div>
