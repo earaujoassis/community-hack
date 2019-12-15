@@ -1,7 +1,7 @@
 import * as actionTypes from '../actions/types';
 
 const initialState = {
-  user: undefined,
+  user: { name: 'Carlos Assis', coins: 100 },
   projects: undefined,
   applications: undefined,
   servers: undefined,

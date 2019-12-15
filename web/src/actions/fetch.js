@@ -4,7 +4,7 @@ const fetch = axios.create({
   baseURL: '/api/',
   headers: {
     'Content-Type': 'application/json',
-    'Accept': 'application/json'
+    Accept: 'application/json'
   }
 });
 
